@@ -12,4 +12,5 @@ navbar:
     - text: "google"
       href: https://www.google.com
 output:
-  html_document
+  html_document:
+    theme: cosmo
