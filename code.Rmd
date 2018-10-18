@@ -1,0 +1,19 @@
+---
+title: "code"
+author: "Guojing Wu"
+date: "2018/10/18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+tibble(
+  x = 1,
+  y = 2
+)
+```
+

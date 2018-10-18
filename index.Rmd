@@ -2,6 +2,11 @@
 title: "Holy cow!"
 ---
 
+```{r setup, include = FALSE}
+library(tidyverse)
+```
+
+
 ### I have a webpage!
 
 And I can put all kinds of stuff on it!
@@ -15,3 +20,14 @@ directly link to my [about page](about.html)
 ### picture
 
 <img src="image/somecat.jpg" style="width:75%">
+
+### now it's time to add some code
+
+```{r}
+tibble(
+  x = 1,
+  y = 2
+)
+```
+
+or you could link it to a [new page](code.html)
