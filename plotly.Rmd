@@ -30,6 +30,8 @@ nyc_airbnb =
   sample_n(5000) # data still large, take randomly 5000 results
 ```
 
+### plotly scatterlpot
+
 ```{r}
 nyc_airbnb %>%
   mutate(text_label = str_c("Price: $", price, '\nRating: ', rating)) %>% # except from showing the coordinate, also show some important value
@@ -37,5 +39,11 @@ nyc_airbnb %>%
           alpha = 0.5, 
           color = ~price, 
           text = ~text_label)
+```
+
+### plotly boxplot
+
+```{r}
+
 ```
 

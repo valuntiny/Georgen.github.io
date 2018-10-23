@@ -30,4 +30,4 @@ tibble(
 )
 ```
 
-or you could link it to a [new page](code.html)
+or you could link it to a [new page](plotly.html)
