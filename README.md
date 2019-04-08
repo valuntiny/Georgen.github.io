@@ -1,6 +1,6 @@
-# Guojing's Personal Website
+# Georgen's Personal Website
 
-This is my personal website:
+This is Georgen Wu (吴国经)'s personal website:
 
 * listed all the projects I've done
 
