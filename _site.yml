@@ -9,8 +9,6 @@ navbar:
       href: wu459201296@gmail.com
     - icon: fa-github fa-lg
       href: http://github.com/valuntiny/
-    - text: "google"
-      href: https://www.google.com
 output:
   html_document:
     theme: cosmo

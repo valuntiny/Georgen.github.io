@@ -1,5 +1,5 @@
 ---
-title: "personal website"
+title: "Welcome to Georgen's personal website"
 ---
 
 ```{r setup, include = FALSE}
@@ -19,40 +19,54 @@ th, td {
 
 <hr />
 
-<h2 style="display: inline">Projects</h2>
+<h2><b>Projects</b></h2>
 
+<h4>Statistical Computing Group Project 2 [On going]</h4>
 
+<h4>Data Mining Project 1 [Finished]</h4>
+
+<h4>Data Science Midterm Project [Finished]</h4>
+
+<h4>Data Science Final Project [Finished]</h4>
+
+<h4>Biostatistical Methods Final project [Finished]</h4>
+
+<h4>Undergraduate Thesis [Finished]</h4>
 
 <hr />
 
-<h2 style="display: inline">Georgen Wu </h2> <h5 style="display: inline">Guojing Wu, 吴国经</h5>
+<h2 style="display: inline"><b>Georgen Wu </b></h2> <h5 style="display: inline">Guojing Wu, 吴国经</h5>
 
+<!--table for term-->
+<h3>Programming Language</h3>
+<hr align="left" width="50%"/>
 <table>
 <tr>
-  <th>Programming Language</th>
-  <td>R, Python</td>
+  <td>R</td>
+  <td>Python</td>
+</tr>
+</table>
+<!--table for term-->
+<h3>Skills and Tools</h3>
+<hr align="left" width="50%"/>
+<table>
+<tr>
+  <td>Statistical Computing</td>
+  <td>Machine Learning</td>
 </tr>
 <tr>
-  <th>Skills and tools</th>
-  <td>Statistical Computing, Machine Learning</td>
-</tr>
-<tr>
-  <td></td>
   <td>Linux system</td>
 </tr>
 <tr>
-  <td></td>
-  <td>HTML, MySQL, Django</td>
+  <td>HTML</td>
+  <td>MySQL</td>
+  <td>Django</td>
 </tr>
 </table>
-
+<!--table for term-->
+<h3>Education</h3>
+<hr align="left" width="50%"/>
 <table>
-<tr>
-  <th>Education</th>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
 <tr>
   <td>2018 - Now</td>
   <td>Columbia University</td>
@@ -69,6 +83,12 @@ th, td {
   <td></td>
   <td></td>
   <td>E4540: Data Mining</td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>p8105: Data Science</td>
   <td></td>
 </tr>
 <tr>
