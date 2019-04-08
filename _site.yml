@@ -1,4 +1,4 @@
-name: "Yay internet!"
+name: "toggle navbar"
 output_dir: "."
 navbar:
   title: "Home"
@@ -6,7 +6,7 @@ navbar:
     - text: "About"
       href: about.html
     - icon: fa-envelope fa-lg
-      href: gw2383@cumc.columbia.edu
+      href: wu459201296@gmail.com
     - icon: fa-github fa-lg
       href: http://github.com/valuntiny/
     - text: "google"

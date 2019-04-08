@@ -1,33 +1,92 @@
 ---
-title: "Holy cow!"
+title: "personal website"
 ---
 
 ```{r setup, include = FALSE}
 library(tidyverse)
 ```
 
+<style>
+th {
+  text-align: left;
+}
 
-### I have a webpage!
+th, td {
+  padding: 15px;
+  font-size: 15px;
+}
+</style>
 
-And I can put all kinds of stuff on it!
+<hr />
 
-### add some links
+<h2 style="display: inline">Projects</h2>
 
-I like [google](https://www.google.com)
 
-directly link to my [about page](about.html)
 
-### picture
+<hr />
 
-<img src="image/somecat.jpg" style="width:75%">
+<h2 style="display: inline">Georgen Wu </h2> <h5 style="display: inline">Guojing Wu, 吴国经</h5>
 
-### now it's time to add some code
+<table>
+<tr>
+  <th>Programming Language</th>
+  <td>R, Python</td>
+</tr>
+<tr>
+  <th>Skills and tools</th>
+  <td>Statistical Computing, Machine Learning</td>
+</tr>
+<tr>
+  <td></td>
+  <td>Linux system</td>
+</tr>
+<tr>
+  <td></td>
+  <td>HTML, MySQL, Django</td>
+</tr>
+</table>
 
-```{r}
-tibble(
-  x = 1,
-  y = 2
-)
-```
-
-or you could link it to a [new page](plotly.html)
+<table>
+<tr>
+  <th>Education</th>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>2018 - Now</td>
+  <td>Columbia University</td>
+  <td>M.S. Candidate in Biostatistics</td>
+  <td>GPA: 3.75 / 4.0</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>p8160: Topics in Statistical Computing</td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>E4540: Data Mining</td>
+  <td></td>
+</tr>
+<tr>
+  <td>2013 - 2017</td>
+  <td>Shanghai Jiao Tong University</td>
+  <td>B.S. in Bioinformatics</td>
+  <td>GPA: 3.36 / 4.0</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>CS022: The Principle of Database Systems</td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>E1372: Algorithm and Data Structure</td>
+  <td></td>
+</tr>
+</table>
