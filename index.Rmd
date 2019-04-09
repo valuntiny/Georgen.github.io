@@ -32,16 +32,19 @@ tr:hover {background-color: #f5f5f5;}
 
 <table>
 <tr>
-  <td><h4>Statistical Computing Group Project 2 [On going]</h4></td>
+  <td><h4>Statistical Computing Group Project 3 [On-going]</h4></td>
+</tr>
+<tr>
+  <td><h4>Statistical Computing Group Project 2 [Finished]</h4></td>
 </tr>
 <tr>
   <td><h4>Data Mining Project 1 [Finished]</h4></td>
 </tr>
 <tr>
-  <td><h4>Data Science Midterm Project [Finished]</h4></td>
+  <td><h4>Data Science Final Project [Finished]</h4></td>
 </tr>
 <tr>
-  <td><h4>Data Science Final Project [Finished]</h4></td>
+  <td><h4>Data Science Midterm Project [Finished]</h4></td>
 </tr>
 <tr>
   <td><h4>Biostatistical Methods Final project <a href="https://github.com/Raarbiarsan1899/p8130_bm_group4">[Finished]</a></h4></td>
