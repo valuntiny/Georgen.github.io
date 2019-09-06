@@ -34,12 +34,7 @@ tr:hover {background-color: #f5f5f5;}
 <tr>
   <th>Mar 2019 - Apr 2019</th>
   <td><h4>Columbia University</h4></td>
-  <td><h4>Statistical Computing Group Project <a href="https://github.com/valuntiny/p8160_group_project_2">[On-going]</a></h4></td>
-</tr>
-<tr>
-  <th>Feb 2019 - Feb 2019</th>
-  <td><h4>Columbia University</h4></td>
-  <td><h4>Data Mining Project 1 <a href="https://github.com/valuntiny/E4540_HW1">[Finished]</a></h4></td>
+  <td><h4>Statistical Computing Group Project <a href="https://github.com/valuntiny/p8160_group_project_2">[Finished]</a></h4></td>
 </tr>
 <tr>
   <th>Dec 2018 - Dec 2018</th>
@@ -64,3 +59,29 @@ tr:hover {background-color: #f5f5f5;}
 </table>
 <hr />
 
+<h2><b>Interesting Practice</b></h2>
+
+<table>
+<tr>
+  <th>Leetcode</th>
+  <td><h4>Algorithm</h4></td>
+  <td><tr>
+  
+  </tr></td>
+</tr>
+<tr>
+  <th>Data Mining</th>
+  <td><h4>Machine Learning</h4></td>
+  <td><h4></h4></td>
+</tr>
+<tr>
+  <th>Topics in Advanced Statistical Computing</th>
+  <td><h4>Statistical Computing</h4></td>
+  <td><h4></h4></td>
+</tr>
+<tr>
+  <th>Biostatistical Methods</th>
+  <td><h4>statistical modeling</h4></td>
+  <td><h4></h4></td>
+</tr>
+</table>
