@@ -31,6 +31,9 @@ tr:hover {background-color: #f5f5f5;}
 <h2><b>Projects</b></h2>
 
 <table>
+<col width="20%">
+<col width="30%">
+<col width="50%">
 <tr>
   <th>Mar 2019 - Apr 2019</th>
   <td><h4>Columbia University</h4></td>
@@ -69,7 +72,7 @@ tr:hover {background-color: #f5f5f5;}
 <tr>
   <th></th>
   <td></td>
-  <td>asdasds</td>
+  <td>Used pipeline to study the patients' profile, applied statistical methods like linear regression and ANOVA on the activity data. Found out the patterns of physical activity over long periods of time. Helped to improve dynamic update of patient status.</td>
 </tr>
 <tr>
   <th>Dec 2015 - May 2017</th>
@@ -79,7 +82,7 @@ tr:hover {background-color: #f5f5f5;}
 <tr>
   <th></th>
   <td></td>
-  <td>asdasds</td>
+  <td>Proposed a biological network module-based zero-augmented generalized linear model, for differential expression analysis of count data. Conducted two simulation studies to compare the efficacy between zero-inflated model, hurdle model and negative binomial model. Then applied these to CPTAC colorectal cancer data set, and found 'negative binomial hurdle model' possesses higher efficacy and could identify modules with lower proportion size and effect size</td>
 </tr>
 </table>
 <hr />
@@ -88,8 +91,10 @@ tr:hover {background-color: #f5f5f5;}
 
 <table>
 <tr>
-  <th><h4>Sorting and Searching Algorithm</h4><a href="https://github.com/valuntiny?tab=repositories">Github Repo</a></th>
-  <td>Source: Leetcode</td>
+  <th><h4>Algorithm</h4></th>
+  <td>
+    
+  </td>
   <td></td>
 </tr>
 
