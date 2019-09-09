@@ -24,30 +24,37 @@ tr:hover {background-color: #f5f5f5;}
 
 <!--table for term-->
 <hr align="left" width="80%"/>
-<h3>Programming Language</h3>
+<h3>Programming/Script Language</h3>
+
 <table>
 <tr>
   <td>R</td>
   <td>Python</td>
+  <td>SQL</td>
+  <td>HTML</td>
 </tr>
 </table>
+
 <!--table for term-->
 <hr align="left" width="80%"/>
 <h3>Skills and Tools</h3>
+
 <table>
 <tr>
+  <td>Statistical Inference</td>
   <td>Statistical Computing</td>
-  <td>Machine Learning</td>
+  <td>Supervised Learning</td>
 </tr>
 <tr>
   <td>Linux system</td>
 </tr>
 <tr>
-  <td>HTML</td>
   <td>MySQL</td>
   <td>Django</td>
+  <td>Spark</td>
 </tr>
 </table>
+
 <!--table for term-->
 <hr align="left" width="80%"/>
 <h3>Education</h3>
@@ -61,7 +68,19 @@ tr:hover {background-color: #f5f5f5;}
 <tr>
   <td></td>
   <td></td>
-  <td>p8160: Topics in Advanced Statistical Computing</td>
+  <td>P8160: Topics in Advanced Statistical Computing</td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>P9120: Topics in Statistical Learning and Data Mining</td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>E6893: Big Data Analytics</td>
   <td></td>
 </tr>
 <tr>
@@ -73,7 +92,13 @@ tr:hover {background-color: #f5f5f5;}
 <tr>
   <td></td>
   <td></td>
-  <td>p8105: Data Science</td>
+  <td>P8105: Data Science</td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>P8109: Statistical Inference</td>
   <td></td>
 </tr>
 <tr>
@@ -92,6 +117,12 @@ tr:hover {background-color: #f5f5f5;}
   <td></td>
   <td></td>
   <td>E1372: Algorithm and Data Structure</td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>B1028 LINUX and Shell</td>
   <td></td>
 </tr>
 </table>
