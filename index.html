@@ -7,11 +7,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>Welcome to Georgen’s personal website</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,9 +23,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -72,9 +72,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -98,6 +95,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -113,7 +113,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -133,6 +132,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -154,19 +190,73 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -179,12 +269,21 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="index.html">Georgen Wu</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="about.html">About me</a>
+  <a href="experiences.html">
+    <span class="far fa far fa-chart-bar"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="resume.html">
+    <span class="far fa far fa-file-alt"></span>
+     
+  </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -209,350 +308,12 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Welcome to Georgen’s personal website</h1>
 
 </div>
 
 
-<style>
-th {
-  text-align: left;
-}
-
-th, td {
-  padding: 10px;
-  font-size: 15px;
-}
-
-td {
-  vertical-align: top;
-  height: 30px;
-}
-
-tr:hover {background-color: #f5f5f5;}
-</style>
-<h5>
-Click on any link for more information.
-</h5>
-<hr />
-<h2>
-<b>Projects</b>
-</h2>
-<table>
-<col width="20%">
-<col width="30%">
-<col width="50%">
-<tr style="border-top:1pt solid black;">
-<th rowspan="2">
-Mar 2019 - Apr 2019
-</th>
-<td rowspan="2" ; style="vertical-align: middle">
-<h4>
-Columbia University
-</h4>
-</td>
-<td>
-<h4>
-<a href="https://github.com/valuntiny/p8160_group_project_2">Statistical Computing Group Project </a>
-</h4>
-</td>
-</tr>
-<tr>
-<td>
-Built a predictive model based on logistic regression to facilicate down syndrome diagnosis, and compared methods including and Pathwise Coordinate Descent with regularized logistic regression and smoothed bootstrap estimation. Found out that Smoothed Bootstrap Estimation provides a more accurate classification result, identified a subset of proteins that are significantly associated with the Down syndrome
-</td>
-</tr>
-<tr style="border-top:1pt solid black;">
-<th rowspan="2">
-Dec 2018 - Dec 2018
-</th>
-<td rowspan="2" ; style="vertical-align: middle">
-<h4>
-Columbia University
-</h4>
-</td>
-<td>
-<h4>
-<a href="https://github.com/Raarbiarsan1899/p8130_bm_group4">Biostatistical Methods Final project </a>
-</h4>
-</td>
-</tr>
-<tr>
-<td>
-Used the cancer statistics dataset containing information from cancer.gov, census.gov and clinicaltrials.gov to select a set of predictors that ‘best’ predicts cancer mortality.
-</td>
-</tr>
-<tr style="border-top:1pt solid black;">
-<th rowspan="2">
-Nov 2018 - Dec 2018
-</th>
-<td rowspan="2" ; style="vertical-align: middle">
-<h4>
-Columbia University
-</h4>
-</td>
-<td>
-<h4>
-<a href="http://shanj.tk/P8105_final_website.io/index.html">Data Science Final Project </a>
-</h4>
-</td>
-</tr>
-<tr>
-<td>
-Launched exploration from a general trend finding through data from National Occupational Employment Status and Wage Estimates from the US Bureau of Labour Statistics. Found out most required skills and majors for data-related jobs, and the difference in qualification between Fortune 500 and non-Fortune 500 companies. Finally used Dashboard and multiple visualization tools to represent the findings.
-</td>
-</tr>
-<tr style="border-top:1pt solid black;">
-<th rowspan="2">
-Oct 2018 - Oct 2018
-</th>
-<td rowspan="2" ; style="vertical-align: middle">
-<h4>
-Columbia University
-</h4>
-</td>
-<td>
-<h4>
-<a href="https://github.com/valuntiny/p8105_mtp_gw2383">Data Science Midterm Project </a>
-</h4>
-</td>
-</tr>
-<tr>
-<td>
-Used pipeline to study the patients’ profile, applied statistical methods like linear regression and ANOVA on the activity data. Found out the patterns of physical activity over long periods of time. Helped to improve dynamic update of patient status.
-</td>
-</tr>
-<tr style="border-top:1pt solid black;">
-<th rowspan="2">
-Dec 2015 - May 2017
-</th>
-<td rowspan="2" ; style="vertical-align: middle">
-<h4>
-Shanghai Jiao Tong University
-</h4>
-</td>
-<td>
-<h4>
-<a href="http://cbb.sjtu.edu.cn/~jingli/webpages/guojing.html">Undergraduate Thesis </a>
-</h4>
-</td>
-</tr>
-<tr>
-<td>
-Proposed a biological network module-based zero-augmented generalized linear model, for differential expression analysis of count data. Conducted two simulation studies to compare the efficacy between zero-inflated model, hurdle model and negative binomial model. Then applied these to CPTAC colorectal cancer data set, and found ‘negative binomial hurdle model’ possesses higher efficacy and could identify modules with lower proportion size and effect size
-</td>
-</tr>
-</table>
-<hr />
-<h2>
-<b>Experiences</b>
-</h2>
-<table>
-<col width="25%">
-<col width="35%">
-<col width="20%">
-<col width="20%">
-<tr style="border-top:1pt solid black;">
-<th rowspan="8">
-<h4>
-Algorithm
-</h4>
-</th>
-<td rowspan="8" ; style="vertical-align: middle">
-<h4>
-Leetcode
-</h4>
-</td>
-<td>
-<a href="https://github.com/valuntiny/leetcode_string">string [easy]</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/leetcode_string_ii">string [medium]</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/leetcode_linked_list">linked list [easy]</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/leetcode_linked_list_ii">linked list [medium]</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/leetcode_tree">tree [easy]</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/leetcode_tree_map">tree [medium]</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/leetcode_sort_search">sort and search [easy]</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/leetcode_sort_search_ii">sort and search [medium]</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/leetcode_dynamic_prog">dynamic programming [easy]</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/leetcode_dynamic_prog_ii">dynamic programming [medium]</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/leetcode_design">design [easy]</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/leetcode_design_ii">design [medium]</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/leetcode_math">math [easy]</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/leetcode_math_ii">math [medium]</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/leetcode_other">other [easy]</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/leetcode_other_ii">other [medium]</a>
-</td>
-</tr>
-<tr style="border-top:1pt solid black;">
-<th rowspan="3">
-<h4>
-Machine Learning
-</h4>
-</th>
-<td rowspan="3" ; style="vertical-align: middle">
-<h4>
-Kaggle
-</h4>
-</td>
-<td>
-<a href="https://github.com/valuntiny/kaggle_decision_tree">decision tree</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/kaggle_random_forest">random forest</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/kaggle_pandas">Pandas</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/kaggle_XGBoost">XGBoost</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/kaggle_data_visualization">visualization</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/kaggle_intermediate_ML">machine learning</a>
-</td>
-</tr>
-<tr style="border-top:1pt solid black;">
-<th rowspan="4">
-<h4>
-Data Science
-</h4>
-</th>
-<td rowspan="4" ; style="vertical-align: middle">
-<h4>
-P8105 Data Science I
-</h4>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8105_Data_wrangling_2">data wrangling</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8105_data_manipulaton">data manipulation</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/p8105_tidy_data">tidying data</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8105_Visualization">visualization</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/p8105_group_by">group by</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8105_iteration">iteration</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/p8105_linear_models">linear model</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8105_shiny">shiny</a>
-</td>
-</tr>
-<tr style="border-top:1pt solid black;">
-<th rowspan="5">
-<h4>
-Biostatistics
-</h4>
-</th>
-<td rowspan="5" ; style="vertical-align: middle">
-<h4>
-P8131 Biostatistical Methods II
-</h4>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8131_HW1">HW1</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8131_HW2">HW2</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/p8131_HW3">HW3</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8131_HW4">HW4</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/p8131_HW5">HW5</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8131_HW6">HW6</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/p8131_HW7">HW7</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8131_HW8">HW8</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/valuntiny/p8131_HW9">HW9</a>
-</td>
-<td>
-<a href="https://github.com/valuntiny/p8131_HW10">HW10</a>
-</td>
-</tr>
-</table>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/6e8b08f469.js" crossorigin="anonymous"></script>
 
 
 
@@ -571,6 +332,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

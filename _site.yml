@@ -1,10 +1,12 @@
 name: "toggle navbar"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Georgen Wu"
   left:
-    - text: "About me"
-      href: about.html
+    - icon: far fa-chart-bar
+      href: experiences.html
+    - icon: far fa-file-alt
+      href: resume.html
   right:
     - icon: fa-envelope fa-lg
       href: wu459201296@gmail.com

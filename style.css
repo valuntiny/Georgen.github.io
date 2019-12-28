@@ -1,0 +1,17 @@
+<style>
+th {
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+  font-size: 15px;
+}
+
+td {
+  vertical-align: top;
+  height: 30px;
+}
+
+tr:hover {background-color: #f5f5f5;}
+</style>
