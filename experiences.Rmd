@@ -99,7 +99,7 @@ output: html_document
 </tr>
 
 <tr style="border-top:1pt solid black;">
-  <th rowspan="3"><a href="https://github.com/valuntiny/valuntiny.github.io/blob/master/thesis_final_version.pdf"><img src="image/Thesis.png" alt="Georgen Wu" style="width:100%; float:left" class="center image-square"></a></th>
+  <th rowspan="3"><a href="https://github.com/valuntiny/valuntiny.github.io/blob/master/thesis_final_version.pdf"><img src="image/thesis.png" alt="Georgen Wu" style="width:100%; float:left" class="center image-square"></a></th>
   <td style="vertical-align: bottom">Dec 2015 - May 2017</td>
   <td style="text-align:right; vertical-align:bottom">Shanghai Jiao Tong University</td>
 </tr>
