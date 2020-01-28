@@ -35,6 +35,14 @@ thead {
     border-radius: 50%;
 }
 
+.image-square {
+    width: 100px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
 hr { 
   display: block; 
   height: 1px;
