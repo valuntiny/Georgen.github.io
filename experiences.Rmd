@@ -11,51 +11,112 @@ output: html_document
 <col width="20%">
 <col width="30%">
 <col width="50%">
+
 <tr style="border-top:1pt solid black;">
-  <th rowspan="2">Mar 2019 - Apr 2019</th>
-  <td rowspan="2"; style="vertical-align: middle"><h4>Columbia University</h4></td>
-  <td><h4><a href="https://github.com/valuntiny/p8160_group_project_2">Statistical Computing Group Project </a></h4></td>
+  <th rowspan="3"><a href="https://github.com/Sapphirine/201912-43-Movie-Recommendation"><img src="image/headshot.JPG" alt="Georgen Wu" style="width:100%; float:left" class="center image-cropper"></a></th>
+  <td style="vertical-align: bottom">Nov 2019 - Dec 2019</td>
+  <td style="text-align:right; vertical-align:bottom">Columbia University</td>
 </tr>
 <tr>
-  <td>Built a predictive model based on logistic regression to facilicate down syndrome diagnosis, and compared methods including and Pathwise Coordinate Descent with regularized logistic regression and smoothed bootstrap estimation. Found out that Smoothed Bootstrap Estimation provides a more accurate classification result, identified a subset of proteins that are significantly associated with the Down syndrome</td>
-</tr>
-<tr style="border-top:1pt solid black;">
-  <th rowspan="2">Dec 2018 - Dec 2018</th>
-  <td rowspan="2"; style="vertical-align: middle"><h4>Columbia University</h4></td>
-  <td><h4><a href="https://github.com/Raarbiarsan1899/p8130_bm_group4">Biostatistical Methods Final project </a></h4></td>
+  <td colspan="2" style="height:20px; vertical-align:middle"><h3><b>E6893 final</b></h3></td>
 </tr>
 <tr>
-  <td>Used the cancer statistics dataset containing information from cancer.gov, census.gov and clinicaltrials.gov to select a set of predictors that ‘best’ predicts cancer mortality. </td>
+  <td colspan="2">--.</td>
 </tr>
+
 <tr style="border-top:1pt solid black;">
-  <th rowspan="2">Nov 2018 - Dec 2018</th>
-  <td rowspan="2"; style="vertical-align: middle"><h4>Columbia University</h4></td>
-  <td><h4><a href="http://shanj.tk/P8105_final_website.io/index.html">Data Science Final Project </a></h4></td>
+  <th rowspan="3"><a href="https://github.com/valuntiny/P9120_final"><img src="image/headshot.JPG" alt="Georgen Wu" style="width:100%; float:left" class="center image-cropper"></a></th>
+  <td style="vertical-align: bottom">Nov 2019 - Dec 2019</td>
+  <td style="text-align:right; vertical-align:bottom">Columbia University</td>
 </tr>
 <tr>
-  <td>Launched exploration from a general trend finding through data from National Occupational Employment Status and Wage Estimates from the US Bureau of Labour Statistics. Found out most required skills and majors for data-related jobs, and the difference in qualification between Fortune 500 and non-Fortune 500 companies. Finally used Dashboard and multiple visualization tools to represent the findings. </td>
-</tr>
-<tr style="border-top:1pt solid black;">
-  <th rowspan="2">Oct 2018 - Oct 2018</th>
-  <td rowspan="2"; style="vertical-align: middle"><h4>Columbia University</h4></td>
-  <td><h4><a href="https://github.com/valuntiny/p8105_mtp_gw2383">Data Science Midterm Project </a></h4></td>
+  <td colspan="2" style="height:20px; vertical-align:middle"><h3><b>P9210 final</b></h3></td>
 </tr>
 <tr>
-  <td>Used pipeline to study the patients' profile, applied statistical methods like linear regression and ANOVA on the activity data. Found out the patterns of physical activity over long periods of time. Helped to improve dynamic update of patient status.</td>
+  <td colspan="2">--.</td>
 </tr>
+
 <tr style="border-top:1pt solid black;">
-  <th rowspan="2">Dec 2015 - May 2017</th>
-  <td rowspan="2"; style="vertical-align: middle"><h4>Shanghai Jiao Tong University</h4></td>
-  <td><h4><a href="http://cbb.sjtu.edu.cn/~jingli/webpages/guojing.html">Undergraduate Thesis </a></h4></td>
+  <th rowspan="3"><a href="https://github.com/valuntiny/E6893_HW3"><img src="image/headshot.JPG" alt="Georgen Wu" style="width:100%; float:left" class="center image-cropper"></a></th>
+  <td style="vertical-align: bottom">Oct 2019 - Oct 2019</td>
+  <td style="text-align:right; vertical-align:bottom">Columbia University</td>
 </tr>
 <tr>
-  <td>Proposed a biological network module-based zero-augmented generalized linear model, for differential expression analysis of count data. Conducted two simulation studies to compare the efficacy between zero-inflated model, hurdle model and negative binomial model. Then applied these to CPTAC colorectal cancer data set, and found 'negative binomial hurdle model' possesses higher efficacy and could identify modules with lower proportion size and effect size</td>
+  <td colspan="2" style="height:20px; vertical-align:middle"><h3><b>P6893 HW3</b></h3></td>
 </tr>
+<tr>
+  <td colspan="2">--.</td>
+</tr>
+
+<tr style="border-top:1pt solid black;">
+  <th rowspan="3"><a href="https://github.com/valuntiny/p8160_group_project_2"><img src="image/headshot.JPG" alt="Georgen Wu" style="width:100%; float:left" class="center image-cropper"></a></th>
+  <td style="vertical-align: bottom">Mar 2019 - Apr 2019</td>
+  <td style="text-align:right; vertical-align:bottom">Columbia University</td>
+</tr>
+<tr>
+  <td colspan="2" style="height:20px; vertical-align:middle"><h3><b>Statistical Computing Group Project</b></h3></td>
+</tr>
+<tr>
+  <td colspan="2">Built a predictive model based on logistic regression to facilicate down syndrome diagnosis, and compared methods including and Pathwise Coordinate Descent with regularized logistic regression and smoothed bootstrap estimation. Found out that Smoothed Bootstrap Estimation provides a more accurate classification result, identified a subset of proteins that are significantly associated with the Down syndrome</td>
+</tr>
+
+<tr class="spacer"></tr>
+
+<tr style="border-top:1pt solid black;">
+  <th rowspan="3"><a href="https://github.com/Raarbiarsan1899/p8130_bm_group4"><img src="image/headshot.JPG" alt="Georgen Wu" style="width:100%; float:left" class="center image-cropper"></a></th>
+  <td style="vertical-align: bottom">Dec 2018 - Dec 2018</td>
+  <td style="text-align:right; vertical-align:bottom">Columbia University</td>
+</tr>
+<tr>
+  <td colspan="2" style="height:20px; vertical-align:middle"><h3><b>Biostatistical Methods Final project</b></h3></td>
+</tr>
+<tr>
+  <td colspan="2">Used the cancer statistics dataset containing information from cancer.gov, census.gov and clinicaltrials.gov to select a set of predictors that ‘best’ predicts cancer mortality.</td>
+</tr>
+
+<tr style="border-top:1pt solid black;">
+  <th rowspan="3"><a href="http://shanj.tk/P8105_final_website.io/index.html"><img src="image/headshot.JPG" alt="Georgen Wu" style="width:100%; float:left" class="center image-cropper"></a></th>
+  <td style="vertical-align: bottom">Nov 2018 - Dec 2018</td>
+  <td style="text-align:right; vertical-align:bottom">Columbia University</td>
+</tr>
+<tr>
+  <td colspan="2" style="height:20px; vertical-align:middle"><h3><b>Data Science Final Project</b></h3></td>
+</tr>
+<tr>
+  <td colspan="2">Launched exploration from a general trend finding through data from National Occupational Employment Status and Wage Estimates from the US Bureau of Labour Statistics. Found out most required skills and majors for data-related jobs, and the difference in qualification between Fortune 500 and non-Fortune 500 companies. Finally used Dashboard and multiple visualization tools to represent the findings.</td>
+</tr>
+
+<tr style="border-top:1pt solid black;">
+  <th rowspan="3"><a href="https://github.com/valuntiny/p8105_mtp_gw2383"><img src="image/headshot.JPG" alt="Georgen Wu" style="width:100%; float:left" class="center image-cropper"></a></th>
+  <td style="vertical-align: bottom">Oct 2018 - Oct 2018</td>
+  <td style="text-align:right; vertical-align:bottom">Columbia University</td>
+</tr>
+<tr>
+  <td colspan="2" style="height:20px; vertical-align:middle"><h3><b>Data Science Midterm Project</b></h3></td>
+</tr>
+<tr>
+  <td colspan="2">Used pipeline to study the patients' profile, applied statistical methods like linear regression and ANOVA on the activity data. Found out the patterns of physical activity over long periods of time. Helped to improve dynamic update of patient status.</td>
+</tr>
+
+<tr style="border-top:1pt solid black;">
+  <th rowspan="3"><a href="http://cbb.sjtu.edu.cn/~jingli/webpages/guojing.html"><img src="image/headshot.JPG" alt="Georgen Wu" style="width:100%; float:left" class="center image-cropper"></a></th>
+  <td style="vertical-align: bottom">Dec 2015 - May 2017</td>
+  <td style="text-align:right; vertical-align:bottom">Shanghai Jiao Tong University</td>
+</tr>
+<tr>
+  <td colspan="2" style="height:20px; vertical-align:middle"><h3><b>Undergraduate Thesis</b></h3></td>
+</tr>
+<tr>
+  <td colspan="2">Proposed a biological network module-based zero-augmented generalized linear model, for differential expression analysis of count data. Conducted two simulation studies to compare the efficacy between zero-inflated model, hurdle model and negative binomial model. Then applied these to CPTAC colorectal cancer data set, and found 'negative binomial hurdle model' possesses higher efficacy and could identify modules with lower proportion size and effect size.</td>
+</tr>
+
 </table>
 
-<hr />
-<hr />
-<hr />
+
+</br>
+</br>
+</br>
+
 
 <h2><b>Course Works</b></h2>
 

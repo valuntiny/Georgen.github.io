@@ -2,16 +2,11 @@ name: "toggle navbar"
 output_dir: "."
 navbar:
   title: "Georgen Wu"
-  left:
+  right:
     - icon: far fa-chart-bar
       href: experiences.html
     - icon: far fa-file-alt
       href: resume.html
-  right:
-    - icon: fa-envelope fa-lg
-      href: wu459201296@gmail.com
-    - icon: fa-github fa-lg
-      href: http://github.com/valuntiny/
 output:
   html_document:
     theme: cosmo
