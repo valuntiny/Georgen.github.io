@@ -18,47 +18,46 @@ I'm passionate to deal with big data and work with data experts. Seeking to gain
 
 <br>
 
-<center><h2><b> Highlight Projects </b></h2></center>
+<center><h2><b> Highlight Projects </b></h2>
 
-<center>
 <table>
-<col width="40%">
-<col width="60%">
-<thead>
-<tr>
-  <th>Project Name</th>
-  <th>Description</th>
+<col width="15%">
+<col width="35%">
+<col width="15%">
+<col width="35%">
+
+<tr style="border-top:1pt solid black; border-bottom:1pt solid black;">
+  <td><a href="https://github.com/Sapphirine/201912-43-Movie-Recommendation"><img src="image/6893_final.png" alt="Georgen Wu" class="center image-small"></a></td>
+  <td><b>Movie Recommendation System</b> 
+  <br>
+  Built up a movie recommendation app using association rule and Single Value Decomposition on Google Cloud Platform.
+  </td>
+  
+  <td><a href="https://github.com/valuntiny/P9120_final"><img src="image/9120.png" alt="Georgen Wu" class="center image-small"></a></td>
+  <td><b>Cooking Recipe Cuisine Type Prediction</b>
+  <br>
+  Built up a cuisine type prediction model using feature extraction and four classification models.
+  </td>
 </tr>
-</thead>
-<tbody>
-<tr>
-  <td>Body content 1</td>
-  <td>Body content 2</td>
-</tr>
-<tr>
-  <td>Body content 1</td>
-  <td>Body content 2</td>
-</tr>
-<tr>
-  <td>Body content 1</td>
-  <td>Body content 2</td>
-</tr>
-</tbody>
 </table>
+
 </center>
 
-If you are interested, you can check out my <a href="experiences.html">other projects</a>.
+Check out <a href="experiences.html">full list</a> for more in detail.
+
+
+
+<center>
+
+<h2><b> Contact </b></h2>
 
 Here is my <a href="resume.html">resume</a> in case you are the big boss or HR :)
 
-<center><h2>
-
-<b> Contact </b>
-
+<h2>
 <a class="fas fa-envelope" href="wu459201296@gmail.com"> </a>
 <a class="fab fa-github" href="http://github.com/valuntiny/"> </a>
-<a class="fab fa-linkedin" href="https://www.linkedin.com/in/guojing-wu-213795146/"> </a>
+<a class="fab fa-linkedin" href="https://www.linkedin.com/in/guojing-wu-213795146/"> </a></h2>
 
-</h2></center>
+</center>
 
 

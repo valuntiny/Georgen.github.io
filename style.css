@@ -28,11 +28,10 @@ thead {
 }
 
 .image-cropper {
-    width: 100px;
-    height: 180px;
+    max-width: 12%;
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .image-square {
@@ -41,6 +40,12 @@ thead {
     position: relative;
     overflow: hidden;
     border-radius: 10%;
+}
+
+.image-small {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 hr { 
